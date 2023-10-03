@@ -8,9 +8,9 @@ public class Main {
             passengers = passengers - 3;
             passengers = passengers - 1 + 5;
             System.out.println(passengers);
-            String driver;
-            driver = "Hamish";
-            System.out.println(driver.length());
-
+            String driverFirstName;
+            driverFirstName = "Hamish";
+            String driverLastName = "Blake";
+            System.out.println(driverFirstName + " " + driverLastName);
     }
 }
