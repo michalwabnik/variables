@@ -12,5 +12,11 @@ public class Main {
             driverFirstName = "Hamish";
             String driverLastName = "Blake";
             System.out.println(driverFirstName + " " + driverLastName);
+            boolean isLightGreen = false;
+            if(isLightGreen) {
+                    System.out.println("Drive");
+            } else {
+                    System.out.println("Stop");
+            }
     }
 }
